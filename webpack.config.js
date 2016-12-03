@@ -41,10 +41,6 @@ module.exports = {
   module: {
     loaders: [
       {
-        test   : /\.html$/,
-        loaders: ['file-loader?name=[name].[ext]']
-      },
-      {
         test   : /\.jsx?$/,
         loaders: ['babel-loader'],
         exclude: path.join(__dirname, 'node_modules'),
