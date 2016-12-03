@@ -9,6 +9,7 @@
 ###### Capabilities
 
 > es6
+------------------
 > react-hot-loader
 
 ### First go here and follow instruction [cordova-plugin-toast
