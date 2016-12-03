@@ -11,8 +11,7 @@
 > * es6
 > * react-hot-loader
 
-### First go here and follow instruction [cordova-plugin-toast
-](https://github.com/Samsung/cordova-plugin-toast)
+### First go here and follow instruction [cordova-plugin-toast](https://github.com/Samsung/cordova-plugin-toast)
 
 ### Usage
 
