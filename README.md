@@ -19,8 +19,7 @@
 git clone https://github.com/bugaro/cordova-tv-toast.git
 cd cordova-tv-toast
 npm install
+npm build:browser //cordova dependencies for browser
+npm start         //open http://localhost:8080/
+npm build         //minifying
 ```
-`npm build:browser` *cordova dependencies for browser*
-`npm start` *open http://localhost:8080/*
-`npm build` *minifying*
-
