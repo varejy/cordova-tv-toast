@@ -27,10 +27,7 @@ module.exports = {
     hot        : true,
     inline     : true,
     publicPath : '/',
-    historyApiFallback: true,
-    staticOptions: {
-     index: './www/index.html',
-    }
+    historyApiFallback: true
   },
 
   resolve: {
