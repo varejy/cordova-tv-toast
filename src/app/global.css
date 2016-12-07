@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Nunito, Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+body {
+    background: url('../assets/img/black-linen.png'), 
+    linear-gradient(180deg, #60009a, #ad0070) 0 0 no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+@font-face {
+  font-family: 'Nunito-bold';
+  src: url('../assets/fonts/Nunito-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nunito';
+  src: url('../assets/fonts/Nunito-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

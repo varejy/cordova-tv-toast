@@ -1,0 +1,20 @@
+.header {
+    padding: 1rem;
+    text-align: center;
+
+}
+.header > h1 {
+    font: normal normal 3rem Nunito-bold;
+    text-shadow: 0px 0px 10px #8601ff, 0px 0px 8px #8601ff;
+}
+.header > h1, .section {
+    color: #988fff;
+}
+.section {
+    background: linear-gradient(-35deg, rgba(255, 255, 255, .45), transparent, rgba(255, 255, 255, .45));
+    border-radius: 28px;
+    margin: 0 auto;
+    width: 95%;
+    height: 80vh;
+    box-shadow: 0 0 7px #938aff;
+}

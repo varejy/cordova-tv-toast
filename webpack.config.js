@@ -9,7 +9,7 @@ var NODE_ENV = process.env.NODE_ENV || DEV;
 module.exports = {
   devtool: (NODE_ENV === DEV)? 'inline-source-map' : false,
   watch  : (NODE_ENV === DEV)? true : false,
-  entry  : './src/index.js',
+  entry  : './src/app/index',
   
   output: {
     path      : path.join(__dirname, 'www'),
@@ -51,10 +51,21 @@ module.exports = {
         test   : /\.css$/,
         loaders: [
           'style-loader',
+          'css-loader'
+        ],
+        exclude: path.join(__dirname, 'src'),
+        include: path.join(__dirname, 'node_modules')
+      },
+      {
+        test   : /\.css$/,
+        loaders: [
+          'style-loader',
           'css-loader?modules&importLoaders=1&localIdentName=[local]___[hash:base64:5]',
           'postcss-loader'
-        ]
-      },
+        ],
+        exclude: path.join(__dirname, 'node_modules'),
+        include: path.join(__dirname, 'src')
+      }
     ]
   },
 
