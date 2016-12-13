@@ -17,4 +17,15 @@
     width: 95%;
     height: 80vh;
     box-shadow: 0 0 7px #938aff;
+    overflow: hidden;
+    opacity: 0;
+    animation: content 2s ease-out-cubic normal forwards;
+}
+@keyframes content {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

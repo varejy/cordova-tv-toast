@@ -1,0 +1,25 @@
+.home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 20vh;
+}
+.home > div:first-child {
+    left: 6rem;
+}
+.home > div:last-child {
+    right: 6rem;
+}
+
+@keyframes content {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.hide {
+    animation: content .5s ease-out-cubic normal forwards;
+}
