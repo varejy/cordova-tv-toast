@@ -41,7 +41,6 @@ export default class Home extends React.Component {
         }
     }
     render() { 
-        const titles = ['A', 'V'];
         const selected = this.state.selected? styles.hide : '';
         return (
             <div key="home" className={`${styles.home} ${selected}`} 
