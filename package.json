@@ -4,7 +4,6 @@
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
-    "babel-plugin-transform-function-bind": "^6.8.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.16.0",
@@ -48,6 +47,7 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server",
     "build": "NODE_ENV=production ./node_modules/.bin/webpack",
-    "build:browser": "./node_modules/.bin/cordova build browser"
+    "build:browser": "./node_modules/.bin/cordova build browser",
+    "add:browser": "./node_modules/.bin/cordova platform add browser"
   }
 }
